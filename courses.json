@@ -1,0 +1,30 @@
+[{
+    "id": 1,
+    "name": "Desarrollo Web Inicial",
+    "schedule": "Lun 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 2,
+    "name": "Desarrollo Web Avanzado",
+    "schedule": "Lun 20:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 3,
+    "name": "Desarrollo de aplicaciones móviles",
+    "schedule": "Mie 14:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 4,
+    "name": "Backend",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 5,
+    "name": "Desarrollador Fullstack",
+    "schedule": "Vie 17:00hs",
+    "teacher": "lorem ipsum"
+}]
