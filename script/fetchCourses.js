@@ -25,13 +25,19 @@ fetch("../courses.json")
     }
     loadTable(i, maxRow);
 
-    // Table navigation
+// Table navigation
     const nextBtn = document.getElementById("nextBtn");
     const previousBtn = document.getElementById("previousBtn");
     nextBtn.onclick = () => {
-      i += 10;
-      maxRow += 10;
-      loadTable(i, maxRow);
+      if (i+10 <= data.length) {
+        i += 10;
+        maxRow += 10;
+        loadTable(i, maxRow);
+        console.log(i)
+        if (i+10 > data.length) {
+          nextBtn.classList.add("disabled")
+        }
+      }
       previousBtn.classList.remove("disabled")
     };
 
@@ -43,6 +49,7 @@ fetch("../courses.json")
         if (i === 0) {
           previousBtn.classList.add("disabled")
         }
+        nextBtn.classList.remove("disabled")
       }
     };
   });
