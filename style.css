@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+
+:root {
+    --primary-color: rgb(62, 61, 116);
+}
+
+nav {
+    background-color: var(--primary-color);
+}
+
+nav img {
+    max-width: 220px;
+    filter: brightness(250%);
+}
+
+.nav-item a {
+    font-size: 18px;
+    color: #fff
+}
+
+div#intro {
+    height: 90vh;
+    background-image: url('img/mainbg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(62,61,116,.2);
+    font-family: 'Bayon', sans-serif;
+    position: relative;
+}
+
+div#intro h1 {
+    padding: 60px;
+    font-size: 55px;
+    color: #fff;
+}
+
+div#intro #btnDiv {
+    position: absolute;
+    width: 100%;
+    bottom: 15%;
+}
+
+div#intro button {
+    padding: 10px;
+    font-size: 27px;
+    color: var(--primary-color);
+    opacity: 0.5;
+}
+
+div#intro button:hover {
+    opacity: 0.7;
+}
+
+div.header {
+    background-color: #31304B;
+    color: #fff;
+    font-family: 'Bayon', sans-serif;
+    text-align: center;
+    padding: 5vh;
+}
+
+div#aboutus {
+    height: 80vh;
+}
+
+div#courses .container {
+    height: 90vh;
+}
+
+div#footer {
+    background-color: #31304B;
+    height: 30vh;
+    margin-top: 10vh;
+}

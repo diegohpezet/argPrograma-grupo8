@@ -1,23 +1,73 @@
 const table = document.getElementById("table-content");
-const courseInput = document.getElementById("courseInput");
 
 fetch("../courses.json")
   .then((response) => response.json())
   .then((data) => {
-    data.forEach((element) => {
-      const table = document.getElementById("table-content");
-      table.innerHTML += `
-      <tr>
-        <td>${element.name}</td>
-        <td>${element.schedule}</td>
-        <td>${element.teacher}</td>
-        <td><button onclick='openCourseSignup(${JSON.stringify(
-          element
-        )})' class="btn btn-primary">+</button></td>
-      </tr>
-      `;
-    });
+    const table = document.getElementById("table-content");
+    var i = 0,
+      maxRow = 10;
+    function loadTable(i, maxRow) {
+      table.innerHTML = "";
+      for (i; i < maxRow; i++) {
+        if (data[i]) {
+          table.innerHTML += `
+          <tr>
+            <td>${data[i].name}</td>
+            <td>${data[i].schedule}</td>
+            <td>${data[i].teacher}</td>
+            <td><button onclick='openCourseSignup(${JSON.stringify(
+              data[i]
+            )})' class="btn btn-primary">+</button></td>
+          </tr>
+        `;
+        }
+      }
+    }
+    loadTable(i, maxRow);
+
+    // Table navigation
+    const nextBtn = document.getElementById("nextBtn");
+    const previousBtn = document.getElementById("previousBtn");
+    nextBtn.onclick = () => {
+      i += 10;
+      maxRow += 10;
+      loadTable(i, maxRow);
+      previousBtn.classList.remove("disabled")
+    };
+
+    previousBtn.onclick = () => {
+      if (i != 0) {
+        i -= 10;
+        maxRow -= 10;
+        loadTable(i, maxRow);
+        if (i === 0) {
+          previousBtn.classList.add("disabled")
+        }
+      }
+    };
   });
+
+// Table filter
+const courseInput = document.getElementById("courseInput");
+
+courseInput.oninput = () => {
+  let filter, table, tr, td, i, txtValue;
+  filter = courseInput.value.toUpperCase();
+  table = document.getElementById("table-content");
+  tr = table.getElementsByTagName("tr");
+
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+};
 
 // Stepper form
 var user = {
@@ -91,11 +141,9 @@ async function openCourseSignup(course) {
         showCancelButton: false,
         showClass: { backdrop: "swal2-noanimation" },
         preConfirm: () => {
-          // Enviar mail
+          // Send email
         },
       });
     }
   }
 }
-
-//Visualización de datos tipo formulario donde muestre los distintos cursos que ofrecemos!

@@ -27,4 +27,118 @@
     "name": "Desarrollador Fullstack",
     "schedule": "Vie 17:00hs",
     "teacher": "lorem ipsum"
+},
+{
+    "id": 6,
+    "name": "Desarrollador de Aplicaciones Móviles",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 7,
+    "name": "Desarrollo de Videojuegos",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 8,
+    "name": "Photoshop",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 9,
+    "name": "Introducción a la programación",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 10,
+    "name": "C++",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 11,
+    "name": "UI/UX Design",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 12,
+    "name": "Inglés Técnico",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 13,
+    "name": "Inglés Técnico",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 14,
+    "name": "Inglés Técnico",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 15,
+    "name": "Inglés Técnico",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 16,
+    "name": "Inglés Técnico",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 17,
+    "name": "Inglés Técnico",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 18,
+    "name": "Inglés Técnico",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 19,
+    "name": "Inglés Técnico",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 20,
+    "name": "Inglés Técnico",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 21,
+    "name": "Inglés Técnico",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 22,
+    "name": "Inglés Técnico",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 23,
+    "name": "Inglés Técnico",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
+},
+{
+    "id": 24,
+    "name": "Inglés Técnico",
+    "schedule": "Jue 19:00hs",
+    "teacher": "lorem ipsum"
 }]
