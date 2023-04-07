@@ -25,7 +25,7 @@ fetch("../courses.json")
     }
     loadTable(i, maxRow);
 
-// Table navigation
+    // Table navigation
     const nextBtn = document.getElementById("nextBtn");
     const previousBtn = document.getElementById("previousBtn");
     nextBtn.onclick = () => {
@@ -33,7 +33,6 @@ fetch("../courses.json")
         i += 10;
         maxRow += 10;
         loadTable(i, maxRow);
-        console.log(i)
         if (i+10 > data.length) {
           nextBtn.classList.add("disabled")
         }
@@ -52,30 +51,29 @@ fetch("../courses.json")
         nextBtn.classList.remove("disabled")
       }
     };
-  });
-
-// Table filter
-const courseInput = document.getElementById("courseInput");
-
-courseInput.oninput = () => {
-  let filter, table, tr, td, i, txtValue;
-  filter = courseInput.value.toUpperCase();
-  table = document.getElementById("table-content");
-  tr = table.getElementsByTagName("tr");
-
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
+  
+    // Table filter
+    const courseInput = document.getElementById("courseInput");
+    courseInput.oninput = () => {
+      let filter = courseInput.value.toUpperCase();
+      table.innerHTML = ""
+      data.forEach(element => {
+        if (element.name.toUpperCase().indexOf(filter) > -1) {
+          table.innerHTML += `
+          <tr>
+            <td>${element.name}</td>
+            <td>${element.schedule}</td>
+            <td>${element.teacher}</td>
+            <td><button onclick='openCourseSignup(${JSON.stringify(
+              element
+            )})' class="btn btn-primary">+</button></td>
+          </tr>
+        `;
+        }
+      });
     }
-  }
-};
-
+  
+  });
 // Stepper form
 var user = {
   //This is going to contain all user's data

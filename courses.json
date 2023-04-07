@@ -1,31 +1,31 @@
 [{
     "id": 1,
     "name": "Desarrollo Web Inicial",
-    "schedule": "Lun 19:00hs",
+    "schedule": "Lun 20:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 2,
     "name": "Desarrollo Web Avanzado",
-    "schedule": "Lun 20:00hs",
+    "schedule": "Mar, Jue 20:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 3,
-    "name": "Desarrollo de aplicaciones móviles",
-    "schedule": "Mie 14:00hs",
+    "name": "Desarrollo Web Avanzado",
+    "schedule": "Mie, Vie 20:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 4,
-    "name": "Backend",
-    "schedule": "Jue 19:00hs",
+    "name": "Desarrollador Backend",
+    "schedule": "Lun, Jue 19:30hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 5,
     "name": "Desarrollador Fullstack",
-    "schedule": "Vie 17:00hs",
+    "schedule": "Lun, Vie 18:30hs",
     "teacher": "lorem ipsum"
 },
 {
@@ -49,96 +49,96 @@
 {
     "id": 9,
     "name": "Introducción a la programación",
-    "schedule": "Jue 19:00hs",
+    "schedule": "Mar, Jue 19:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 10,
-    "name": "C++",
-    "schedule": "Jue 19:00hs",
+    "name": "Introducción a la programación",
+    "schedule": "Mie, Vie 19:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 11,
     "name": "UI/UX Design",
-    "schedule": "Jue 19:00hs",
+    "schedule": "Lun, Mie 20:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 12,
-    "name": "Inglés Técnico",
-    "schedule": "Jue 19:00hs",
+    "name": "UI/UX Design",
+    "schedule": "Mar, Jue 20:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 13,
-    "name": "Inglés Técnico",
-    "schedule": "Jue 19:00hs",
+    "name": "Social Management",
+    "schedule": "Lun 20:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 14,
-    "name": "Inglés Técnico",
+    "name": "Introducción a Redes Informáticas",
     "schedule": "Jue 19:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 15,
-    "name": "Inglés Técnico",
+    "name": "Técnico en Redes Informáticas",
     "schedule": "Jue 19:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 16,
-    "name": "Inglés Técnico",
+    "name": "Reparacion Informática",
     "schedule": "Jue 19:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 17,
-    "name": "Inglés Técnico",
+    "name": "Aplicaciones Dinámicas",
     "schedule": "Jue 19:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 18,
-    "name": "Inglés Técnico",
+    "name": "Javascript",
     "schedule": "Jue 19:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 19,
-    "name": "Inglés Técnico",
-    "schedule": "Jue 19:00hs",
+    "name": "React JS",
+    "schedule": "Mie, Vie 19:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 20,
-    "name": "Inglés Técnico",
-    "schedule": "Jue 19:00hs",
+    "name": "React JS",
+    "schedule": "Jue, Sab 19:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 21,
-    "name": "Inglés Técnico",
+    "name": "Automatización con Arduino",
     "schedule": "Jue 19:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 22,
-    "name": "Inglés Técnico",
+    "name": "Programación Orientada a Objetos",
     "schedule": "Jue 19:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 23,
-    "name": "Inglés Técnico",
+    "name": "Comprensión de la IA",
     "schedule": "Jue 19:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 24,
-    "name": "Inglés Técnico",
+    "name": "Documentación de Proyectos",
     "schedule": "Jue 19:00hs",
     "teacher": "lorem ipsum"
 }]
