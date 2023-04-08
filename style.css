@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
 
 :root {
-    --primary-color: rgb(62, 61, 116);
+    --primary-color: hwb(241 24% 55%);
     --secondary-color: rgb(91, 90, 136);
 }
 
@@ -60,8 +60,8 @@ div.header {
     padding: 5vh;
 }
 
-div#aboutus {
-    height: 80vh;
+div#aboutus span{
+    font-size: 48px;
 }
 
 div#courses .container {
@@ -77,4 +77,18 @@ div#footer {
     background-color: #31304B;
     height: 30vh;
     margin-top: 10vh;
+}
+
+div#copyright {
+    font-size: 14px;
+}
+
+.review {
+    border: 3px solid var(--primary-color);
+    max-width: 600px;
+}
+
+div#social a{
+    border: 2px solid var(--primary-color);
+    color:rgb(91, 90, 136)
 }
