@@ -151,4 +151,5 @@ async function openCourseSignup(course) {
       });
     }
   }
+  
 }
