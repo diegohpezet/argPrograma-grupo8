@@ -25,7 +25,7 @@ fetch("../courses.json")
     }
     loadTable(i, maxRow);
 
-    // Table navigation
+    // Nav de la tabla
     const nextBtn = document.getElementById("nextBtn");
     const previousBtn = document.getElementById("previousBtn");
     nextBtn.onclick = () => {
@@ -52,31 +52,35 @@ fetch("../courses.json")
       }
     };
   
-    // Table filter
+    // Filtrar tabla
     const courseInput = document.getElementById("courseInput");
     courseInput.oninput = () => {
       let filter = courseInput.value.toUpperCase();
       table.innerHTML = ""
       data.forEach(element => {
-        if (element.name.toUpperCase().indexOf(filter) > -1) {
-          table.innerHTML += `
-          <tr>
-            <td>${element.name}</td>
-            <td>${element.schedule}</td>
-            <td>${element.teacher}</td>
-            <td><button onclick='openCourseSignup(${JSON.stringify(
-              element
-            )})' class="btn btn-primary">+</button></td>
-          </tr>
-        `;
-        }
+        if(filter != "") {
+          if (element.name.toUpperCase().indexOf(filter) > -1) {
+            table.innerHTML += `
+            <tr>
+              <td>${element.name}</td>
+              <td>${element.schedule}</td>
+              <td>${element.teacher}</td>
+              <td><button onclick='openCourseSignup(${JSON.stringify(
+                element
+              )})' class="btn btn-primary">+</button></td>
+            </tr>
+          `;
+          }
+        } else {
+          loadTable(0, 10)
+        }        
       });
     }
   
   });
 // Stepper form
 var user = {
-  //This is going to contain all user's data
+  //Esta variable va a almacenar todos los datos del usuario
 };
 async function openCourseSignup(course) {
   const Queue = Swal.mixin({
@@ -140,7 +144,7 @@ async function openCourseSignup(course) {
     if (user.contact) {
       await Queue.fire({
         title: "Confirmación",
-        text: `Al pulsar el botón, se enviará un correo eléctronico a ${user.email} con los datos acerca del comienzo del curso`,
+        text: `Al pulsar el botón, se enviará un correo eléctronico a ${user.contact.email} con los datos acerca del comienzo del curso`,
         currentProgressStep: 2,
         confirmButtonText: "OK",
         showCancelButton: false,
@@ -151,5 +155,4 @@ async function openCourseSignup(course) {
       });
     }
   }
-  
 }

@@ -2,43 +2,43 @@
     "id": 1,
     "name": "Desarrollo Web Inicial",
     "schedule": "Lun 20:00hs",
-    "teacher": "lorem ipsum"
+    "teacher": "Juan López"
 },
 {
     "id": 2,
     "name": "Desarrollo Web Avanzado",
     "schedule": "Mar, Jue 20:00hs",
-    "teacher": "lorem ipsum"
+    "teacher": "Juan López"
 },
 {
     "id": 3,
     "name": "Desarrollo Web Avanzado",
     "schedule": "Mie, Vie 20:00hs",
-    "teacher": "lorem ipsum"
+    "teacher": "Juan López"
 },
 {
     "id": 4,
     "name": "Desarrollador Backend",
     "schedule": "Lun, Jue 19:30hs",
-    "teacher": "lorem ipsum"
+    "teacher": "Javier Donn"
 },
 {
     "id": 5,
     "name": "Desarrollador Fullstack",
     "schedule": "Lun, Vie 18:30hs",
-    "teacher": "lorem ipsum"
+    "teacher": "Javier Donn"
 },
 {
     "id": 6,
     "name": "Desarrollador de Aplicaciones Móviles",
     "schedule": "Jue 19:00hs",
-    "teacher": "lorem ipsum"
+    "teacher": "Juan López"
 },
 {
     "id": 7,
     "name": "Desarrollo de Videojuegos",
     "schedule": "Jue 19:00hs",
-    "teacher": "lorem ipsum"
+    "teacher": "Ana Siciliani"
 },
 {
     "id": 8,
@@ -50,25 +50,25 @@
     "id": 9,
     "name": "Introducción a la programación",
     "schedule": "Mar, Jue 19:00hs",
-    "teacher": "lorem ipsum"
+    "teacher": "Javier Donn"
 },
 {
     "id": 10,
     "name": "Introducción a la programación",
     "schedule": "Mie, Vie 19:00hs",
-    "teacher": "lorem ipsum"
+    "teacher": "Javier Donn"
 },
 {
     "id": 11,
     "name": "UI/UX Design",
     "schedule": "Lun, Mie 20:00hs",
-    "teacher": "lorem ipsum"
+    "teacher": "Ana Siciliani"
 },
 {
     "id": 12,
     "name": "UI/UX Design",
     "schedule": "Mar, Jue 20:00hs",
-    "teacher": "lorem ipsum"
+    "teacher": "Ana Siciliani"
 },
 {
     "id": 13,

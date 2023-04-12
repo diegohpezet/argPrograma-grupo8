@@ -1,0 +1,1 @@
+// Este archivo contendrá el script para que se envíe el mail
