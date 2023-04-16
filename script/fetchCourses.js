@@ -150,7 +150,21 @@ async function openCourseSignup(course) {
         showCancelButton: false,
         showClass: { backdrop: "swal2-noanimation" },
         preConfirm: () => {
-          // Send email
+          Email.send({
+            SecureToken: "df29c4f5-66fd-43c3-9463-f7473f4e42fe",
+            To: `${user.contact.email}`,
+            From: "yourcompany@gmail.com",
+            Subject: `${user.data.name}, estás a un paso de acceder a la plataforma!`,
+            Body: `<html>
+            <p>Tu solicitud para ${course.name} está siendo procesada</p>
+            <p>Puedes proceder con el pago haciendo una transferencia al siguiente CBU:</p>
+            <ul>
+            <li>000000123456789</li>
+            <li>Alias: John Doe</li>
+            </ul>
+            <p>Luego envíe el comprobante a esta misma dirección de correo para ingresarlo al sistema</p>
+            </html`,
+          }).then(Swal.fire("El mensaje ha sido enviado", "Puedes revisar tu casilla de correo electrónico", "success"));
         },
       });
     }

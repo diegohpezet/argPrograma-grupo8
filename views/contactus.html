@@ -44,17 +44,17 @@
                 <h1>Dejanos <br> Tu <br> Mensaje</h1>
             </div>
             <div class="col">
-                <form>
+                <form id="contactForm">
                     <label for="name">Nombre</label>
-                    <input type="text" id="name" placeholder="Ingrese su nombre" class="form-control mb-5">
+                    <input type="text" id="name" placeholder="Ingrese su nombre" class="form-control mb-5" required>
                 
                     <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="Ingrese su email" class="form-control mb-5">
+                    <input type="email" id="email" placeholder="Ingrese su email" class="form-control mb-5" required>
 
                     <label for="msg">Mensaje</label>
-                    <input type="text" id="msg" placeholder="Ingrese un mensaje" class="form-control mb-5">
+                    <textarea id="msg" placeholder="Escriba su mensaje..." class="form-control" required></textarea>
                 
-                    <input type="submit" class="btn btn-outline-secondary" value="Enviar">
+                    <input type="submit" class="btn btn-outline-secondary mt-3" value="Enviar">
                 </form>
             </div>
         </div>
@@ -89,7 +89,15 @@
             <p>CodeandoAprendo @ 2023 | Todos los derechos reservados</p>
         </div>
     </div>
+
+    <!--SweetAlert para el modal-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--smtpJS para enviar el email-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!--Bootstrap Script-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!--sendContactEmail.js-->
+    <script src="../script/sendContactEmail.js"></script>
 </body>
 
 </html>
