@@ -151,9 +151,9 @@ async function openCourseSignup(course) {
         showClass: { backdrop: "swal2-noanimation" },
         preConfirm: () => {
           Email.send({
-            SecureToken: "df29c4f5-66fd-43c3-9463-f7473f4e42fe",
+            SecureToken: "bf3705ed-77eb-4373-91d1-672d84513d46",
             To: `${user.contact.email}`,
-            From: "yourcompany@gmail.com",
+            From: "diegohpezet@gmail.com",
             Subject: `${user.data.name}, estás a un paso de acceder a la plataforma!`,
             Body: `<html>
             <p>Tu solicitud para ${course.name} está siendo procesada</p>

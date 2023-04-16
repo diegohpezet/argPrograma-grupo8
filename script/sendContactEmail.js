@@ -7,9 +7,9 @@ contactForm.onsubmit = (e) => {
   const msg = document.getElementById("msg").value;
 
   Email.send({
-    SecureToken: "df29c4f5-66fd-43c3-9463-f7473f4e42fe",
+    SecureToken: "bf3705ed-77eb-4373-91d1-672d84513d46",
     To: `${email}`,
-    From: "edu.codeandoaprendo@gmail.com",
+    From: "diegohpezet@gmail.com",
     Subject: `${name}, hemos recibido tu mensaje`,
     Body: `Tu mensaje ("${msg}") ha sido recibido y nos pondremos en contacto cuanto antes contigo`,
   }).then(Swal.fire("El mensaje ha sido enviado", "Puedes revisar tu casilla de correo electrónico", "success"));

@@ -131,3 +131,16 @@ div#contact .banner h1 {
 div#contact label {
     font-size: 18px;
 }
+
+div.iconos {
+    display: flex;
+    justify-content: end;
+    margin: 5vw
+}
+
+div.iconos a {
+    font-size: 3.5rem;
+    margin-right: 20px;
+    color: #000;
+    cursor: pointer;
+}
