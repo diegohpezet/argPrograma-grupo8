@@ -19,44 +19,44 @@
 {
     "id": 4,
     "name": "Desarrollador Backend",
-    "schedule": "Lun, Jue 19:30hs",
+    "schedule": "Lun, Jue 19:00hs",
     "teacher": "Javier Donn"
 },
 {
     "id": 5,
     "name": "Desarrollador Fullstack",
-    "schedule": "Lun, Vie 18:30hs",
+    "schedule": "Lun, Vie 18:00hs",
     "teacher": "Javier Donn"
 },
 {
     "id": 6,
     "name": "Desarrollador de Aplicaciones Móviles",
-    "schedule": "Jue 19:00hs",
+    "schedule": "Mie 19:00hs",
     "teacher": "Juan López"
 },
 {
     "id": 7,
     "name": "Desarrollo de Videojuegos",
-    "schedule": "Jue 19:00hs",
+    "schedule": "Jue 18:00hs",
     "teacher": "Ana Siciliani"
 },
 {
     "id": 8,
     "name": "Photoshop",
-    "schedule": "Jue 19:00hs",
-    "teacher": "lorem ipsum"
+    "schedule": "Mar 18:00hs",
+    "teacher": "Javier Donn"
 },
 {
     "id": 9,
     "name": "Introducción a la programación",
-    "schedule": "Mar, Jue 19:00hs",
+    "schedule": "Mar, Vie 19:00hs",
     "teacher": "Javier Donn"
 },
 {
     "id": 10,
     "name": "Introducción a la programación",
-    "schedule": "Mie, Vie 19:00hs",
-    "teacher": "Javier Donn"
+    "schedule": "Mie, Vie 18:00hs",
+    "teacher": "Ana Siciliani"
 },
 {
     "id": 11,
@@ -73,72 +73,72 @@
 {
     "id": 13,
     "name": "Social Management",
-    "schedule": "Lun 20:00hs",
-    "teacher": "lorem ipsum"
+    "schedule": "Lun 18:00hs",
+    "teacher": "Ana Siciliani"
 },
 {
     "id": 14,
     "name": "Introducción a Redes Informáticas",
-    "schedule": "Jue 19:00hs",
-    "teacher": "lorem ipsum"
+    "schedule": "Jue 21:00hs",
+    "teacher": "Juan López"
 },
 {
     "id": 15,
     "name": "Técnico en Redes Informáticas",
-    "schedule": "Jue 19:00hs",
+    "schedule": "Vie 21:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 16,
     "name": "Reparacion Informática",
-    "schedule": "Jue 19:00hs",
-    "teacher": "lorem ipsum"
+    "schedule": "Jue 21:00hs",
+    "teacher": "Javier Donn"
 },
 {
     "id": 17,
     "name": "Aplicaciones Dinámicas",
-    "schedule": "Jue 19:00hs",
-    "teacher": "lorem ipsum"
+    "schedule": "Jue 21:00hs",
+    "teacher": "Javier Donn"
 },
 {
     "id": 18,
     "name": "Javascript",
-    "schedule": "Jue 19:00hs",
-    "teacher": "lorem ipsum"
+    "schedule": "Lun, Mie 17:00hs",
+    "teacher": "Javier Donn"
 },
 {
     "id": 19,
     "name": "React JS",
-    "schedule": "Mie, Vie 19:00hs",
-    "teacher": "lorem ipsum"
+    "schedule": "Mar, Jue 17:00hs",
+    "teacher": "Javier Donn"
 },
 {
     "id": 20,
     "name": "React JS",
-    "schedule": "Jue, Sab 19:00hs",
-    "teacher": "lorem ipsum"
+    "schedule": "Mar, Jue 17:00hs",
+    "teacher": "Ana Siciliani"
 },
 {
     "id": 21,
     "name": "Automatización con Arduino",
-    "schedule": "Jue 19:00hs",
-    "teacher": "lorem ipsum"
+    "schedule": "Vie 17:00hs",
+    "teacher": "Javier Donn"
 },
 {
     "id": 22,
     "name": "Programación Orientada a Objetos",
-    "schedule": "Jue 19:00hs",
+    "schedule": "Vie 20:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 23,
     "name": "Comprensión de la IA",
-    "schedule": "Jue 19:00hs",
+    "schedule": "Sab 17:00hs",
     "teacher": "lorem ipsum"
 },
 {
     "id": 24,
     "name": "Documentación de Proyectos",
-    "schedule": "Jue 19:00hs",
+    "schedule": "Sab 18:00hs",
     "teacher": "lorem ipsum"
 }]

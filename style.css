@@ -5,6 +5,10 @@
     --secondary-color: rgb(91, 90, 136);
 }
 
+body {
+    overflow-x: hidden;
+}
+
 nav {
     background-color: var(--primary-color);
 }
